@@ -1,0 +1,23 @@
+/* header1.module.css */
+
+.main {
+    width: 404px; /* Fixed width as per your requirement */
+    height: 20px; /* Fixed height */
+    margin-top: 194px; /* Distance from the top */
+    position: absolute; /* Absolute positioning */
+    margin-left: 310px; /* Distance from the left side */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; /* Spacing between items */
+  }
+  
+  .main div {
+    color: rgba(98, 195, 198, 1); /* Color for the breadcrumb text */
+  }
+  
+  .main span {
+    color: rgba(4, 90, 92, 1); /* Color for the highlighted item */
+    font-weight: 700; /* Bold text */
+  }
+  

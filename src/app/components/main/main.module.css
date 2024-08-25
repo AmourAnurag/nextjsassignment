@@ -1,0 +1,36 @@
+.main{
+    width: 970px;
+    height: 1782px;
+    margin-top: 404px;
+    margin-left: 640px;
+    display: flex;
+    flex-direction: column;
+   
+    position: absolute;
+    /* align-items: center; */
+    /* justify-content: center; */
+    gap: 20px;
+   
+}
+.container,.container1,.container2{
+  width: 970px;
+  height: 554px;
+  
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.numbers{
+    width: 262px;
+    position: absolute;
+    height: 23px;
+    font-size: 18px;
+    font-weight: 800;
+
+    margin-top: 1746px;
+    margin-left: 675px;
+    display: flex;
+    gap: 30px;
+}

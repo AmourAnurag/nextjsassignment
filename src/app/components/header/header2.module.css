@@ -1,0 +1,97 @@
+/* header2.module.css */
+
+.bluten {
+    font-size: 36px;
+    font-weight: 800;
+    color: #116a6c;
+    width: 160px;
+    margin-top: 294px;
+    position: absolute;
+    margin-left: 310px;
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .second {
+    width: 798px;
+    height: 34px;
+    position: absolute;
+    margin-top: 302px;
+    margin-left: 814px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .divInput {
+    width: 366px;
+    height: 34px;
+    border-radius: 30px;
+    padding: 6px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(238, 247, 247, 1);
+  }
+  
+  .divInput label {
+    width: 62px;
+    height: 20px;
+    font-weight: 400;
+    color: rgba(98, 195, 198, 1);
+  }
+  
+  .elemeny {
+    width: 183px;
+    height: 34px;
+    font-weight: 600;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px 12px;
+    color: #365758;
+    background: #62c3c64d;
+  }
+  
+  .elemeny span {
+    height: 15px;
+    margin-left: 10px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #365758;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .bluten {
+      font-size: 28px;
+      margin-left: 20px; /* Adjust margin for smaller screens */
+    }
+  
+    .second {
+      width: 100%;
+      margin-left: 0;
+      flex-direction: column;
+      gap: 8px;
+    }
+  
+    .divInput {
+      width: 100%;
+    }
+  
+    .elemeny {
+      width: auto;
+      padding: 4px 8px;
+      font-size: 14px;
+    }
+  
+    .elemeny:last-child {
+      font-size: 28px; /* Ensure proper size for the menu icon */
+    }
+  }
+  

@@ -1,0 +1,61 @@
+.main{
+    width: 1300px;
+    height: 34px;
+    margin-top: 70px;
+    position: absolute;
+    margin-left: 310px;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border:2px sold red
+}
+.divInput{
+    width: 366px;
+    height: 34px;
+    border-radius: 30px;
+    padding: 6px 16px 8px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(238, 247, 247, 1);
+
+}
+.divInput label{
+    width: 62px;
+    height: 20px;
+    font-weight: 400;
+    color: rgba(98, 195, 198, 1);
+
+}
+.point{
+    height: 20px;
+    width: 12px;
+    border-radius: 50px 0;
+    background-color: rgba(98, 195, 198, 0.3);
+}
+.divOthers{
+    width: 904px;
+    height: 33px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.shop{
+    width: 162px;
+    height: 33px;
+    display: flex;
+    gap: 16px;
+}
+.ame{
+    width: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px 0;
+    background: rgba(236, 254, 170, 1);
+
+}

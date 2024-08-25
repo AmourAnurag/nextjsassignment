@@ -1,0 +1,77 @@
+.main {
+  height: 201px;
+  display: flex;
+
+  position: absolute; /* Consider setting this to position the footer as needed */
+  top: 2399px;
+  width: 1920px; /* Ensure the footer spans the full width */
+  border-radius: 30px 30px 0 0;
+  background-color: #1a8d91;
+}
+.left {
+  font-weight: 400;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana;
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  margin-left: 310px;
+  width: 625px;
+  /* background-color: aqua; */
+}
+.right {
+  padding: 50px 0;
+  margin-right: 310px;
+  display: flex;
+  flex-direction: row;
+  /* background-color: blue; */
+  width: 625px;
+  gap: 50px;
+}
+.innerRight {
+  width: 180px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.innerLeft {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.innerRight div {
+  color: white;
+  font-size: 16px;
+  font-weight: 800;
+}
+.innerLeft li {
+  color: white;
+  list-style: none;
+  font-size: 16px;
+  font-weight: 400;
+}
+.innerRight li,.leftLi li {
+  color: white;
+  list-style: none;
+  font-size: 12px;
+  font-weight: 100;
+}
+.points {
+  height: 20px;
+  background-color: #28e3e9;
+  width: 12px;
+  border-radius: 50px 0;
+}
+
+.liGap {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+list-style: none;
+  gap: 8px;
+}
+.leftLi{
+  display: flex;
+  top:300px;
+  flex-direction: column;
+  gap: 8px;
+}

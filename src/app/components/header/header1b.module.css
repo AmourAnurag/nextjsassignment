@@ -1,0 +1,43 @@
+/* header1b.module.css */
+
+.main {
+    width: 223px; /* Keep the original width */
+    height: 63px; /* Keep the original height */
+    margin-top: 194px; /* Preserve the top margin */
+    margin-left: 1387px; /* Preserve the left margin */
+    position: absolute; /* Keep the absolute positioning */
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    gap: 12px; /* Space between items */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+  }
+  
+  .pre {
+    height: 33px;
+    width: 100%; /* Full width of the parent container */
+    border: 2px solid #62C3C6;
+    border-radius: 24px 0;
+    padding: 8px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff; /* White background for the button */
+    color: #62C3C6; /* Text color matching the border */
+    font-size: 16px; /* Font size for the text */
+    font-weight: bold; /* Bold text for emphasis */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .main {
+      width: 100%; /* Adjust to full width on smaller screens */
+      margin-left: 0; /* Remove left margin on smaller screens */
+      margin-top: 10px; /* Adjust top margin for smaller screens */
+    }
+  
+    .pre {
+      width: auto; /* Adjust width for smaller screens */
+    }
+  }
+  
