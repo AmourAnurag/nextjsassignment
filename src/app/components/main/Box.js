@@ -6,7 +6,9 @@ const Box = (props) => {
     <div className={styles.main}>
       <div className={styles.head}>
         <div className={styles.rect}><li style={{color:props.color}}>{props.head}</li></div>
-        
+        if ({props.head2}!=" ") {
+        <div className={styles.rect} style={{width:"50px"}}>{props.head2}</div>
+        }
       </div>
       <div className={styles.image}>
         <Image
@@ -45,7 +47,7 @@ const Box = (props) => {
         <div className={styles.thirdContent}>
           <div className={styles.innerthrd}>
             <div>Kultivar</div>
-            <div>Mango</div>
+            <div>{props.fruit}</div>
           </div>
           <div className={styles.innerthrd}>
             <div>Genetik</div>
