@@ -6,10 +6,10 @@ const Box = (props) => {
     <div className={styles.main}>
       <div className={styles.head}>
         <div className={styles.rect}>
-          <li style={{ color: props.color }}>{props.head}</li>
+          <li style={{ color: props.color,backgroundColor:props.back }}>{props.head}</li>
         </div>
         {props.head2 !== " " && (
-          <div className={styles.rect} style={{ width: "50px",padding:"0px" }}>
+          <div className={styles.rect} style={{ width: "50px",padding:"0px" ,backgroundColor:props.back}}>
             {props.head2}
           </div>
         )}
