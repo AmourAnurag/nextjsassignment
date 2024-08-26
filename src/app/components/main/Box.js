@@ -5,10 +5,14 @@ const Box = (props) => {
   return (
     <div className={styles.main}>
       <div className={styles.head}>
-        <div className={styles.rect}><li style={{color:props.color}}>{props.head}</li></div>
-        if ({props.head2}!=" ") {
-        <div className={styles.rect} style={{width:"50px"}}>{props.head2}</div>
-        }
+        <div className={styles.rect}>
+          <li style={{ color: props.color }}>{props.head}</li>
+        </div>
+        {props.head2 !== " " && (
+          <div className={styles.rect} style={{ width: "50px" }}>
+            {props.head2}
+          </div>
+        )}
       </div>
       <div className={styles.image}>
         <Image
@@ -33,7 +37,7 @@ const Box = (props) => {
               className={styles.frstContentA}
               style={{ backgroundColor: "#62C3C6", color: "white" }}
             >
-              CBD{"<"}1%
+              CBD &lt; 1%
             </div>
             <Image
               src="/images/Bestrahlt.png" // Path relative to the public directory
