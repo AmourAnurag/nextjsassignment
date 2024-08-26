@@ -5,9 +5,9 @@ const Main = () => {
   return (
     <div className={style.main}>
       <div className={style.container}>
-        <Box head="nicht lieferbar" color="red" head1="Cannabis Flos 18/1 PT Mango" fruit="Mango"/>
-        <Box head="nicht lieferbar" color="red" head1="Cannabis Flos 18/1 PT Mango" fruit="Mango"/>
-        <Box head="nicht lieferbar" color="red" head1="Cannabis Flos 18/1 PT Mango" fruit="Mango"/>
+        <Box head="nicht lieferbar" color="red" head1="Cannabis Flos 18/1 PT Mango" fruit="Mango" head2=" "/>
+        <Box head="nicht lieferbar" color="red" head1="Cannabis Flos 18/1 PT Mango" fruit="Mango" head2=" "/>
+        <Box head="nicht lieferbar" color="red" head1="Cannabis Flos 18/1 PT Mango" fruit="Mango" head2=" "/>
       </div>
       <div className={style.container1}>
         <Box head="sofort lieferbar" color="#0D7052" head1="Cannabis Flos 22/1 PT Ku.Pink Kush DAB Canify" fruit="Pink Kush" head2="Neu"/>
@@ -15,9 +15,9 @@ const Main = () => {
         <Box head="sofort lieferbar" color="#0D7052" head1="Cannabis Flos 22/1 PT Ku.Pink Kush DAB Canify" fruit="Pink Kush" head2="Neu"/>
       </div>
       <div className={style.container2}>
-        <Box head="nicht lieferbar" color="red" head1="Cannabis Flos 18/1 PT Mango" fruit="Mango"/>
-        <Box head="nicht lieferbar" color="red" head1="Cannabis Flos 18/1 PT Mango" fruit="Mango"/>
-        <Box head="nicht lieferbar" color="red" head1="Cannabis Flos 18/1 PT Mango" fruit="Mango"/>
+        <Box head="nicht lieferbar" color="red" head1="Cannabis Flos 18/1 PT Mango" fruit="Mango" head2=" "/>
+        <Box head="nicht lieferbar" color="red" head1="Cannabis Flos 18/1 PT Mango" fruit="Mango" head2=" "/>
+        <Box head="nicht lieferbar" color="red" head1="Cannabis Flos 18/1 PT Mango" fruit="Mango" head2=" "/>
       </div>
       <div className={style.numbers}>
         <div>←</div>
