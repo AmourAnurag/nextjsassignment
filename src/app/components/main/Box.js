@@ -9,7 +9,7 @@ const Box = (props) => {
           <li style={{ color: props.color }}>{props.head}</li>
         </div>
         {props.head2 !== " " && (
-          <div className={styles.rect} style={{ width: "50px" }}>
+          <div className={styles.rect} style={{ width: "50px",padding:"0px" }}>
             {props.head2}
           </div>
         )}

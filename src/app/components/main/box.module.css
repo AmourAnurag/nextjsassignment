@@ -8,19 +8,24 @@
   gap: 12px;
 }
 .head {
-  width: 310px;
+  width: 276px;
   height: 41px;
+  gap: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px 20px 0px 20px;
 }
-.rect{
-    width: 170px;
-    height: 21px;
-    background: #A10C0C0D;
-border-radius: 30px;
-padding: 3px 12px;
+.rect {
+  width: 125px;
+  height: 21px;
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #a10c0c0d;
+  border-radius: 30px;
+  padding: 3px 12px;
 }
 .image {
   display: flex;
@@ -117,17 +122,16 @@ padding: 3px 12px;
   display: flex;
   gap: 2px;
 }
-.sp{
-    color: #116a6c;
+.sp {
+  color: #116a6c;
 }
 .bottom span {
   font-size: 24px;
   font-weight: 800;
-  
 }
-.bottom sup{
-    font-size: 11px;
-    font-weight: 500;
+.bottom sup {
+  font-size: 11px;
+  font-weight: 500;
 }
 .underPrice2 {
   width: 164px;
