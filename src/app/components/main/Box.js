@@ -41,7 +41,7 @@ const Box = (props) => {
             />
           </div>
         </div>
-        <div className={styles.secondContent}>Cannabis Flos 18/1 PT Mango</div>
+        <div className={styles.secondContent}>{props.head1}</div>
         <div className={styles.thirdContent}>
           <div className={styles.innerthrd}>
             <div>Kultivar</div>
